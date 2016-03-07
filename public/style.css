@@ -1,0 +1,40 @@
+body {
+	background-image: url(../pig.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+main {
+	display: inline-block;
+	background-color: white;
+	border-radius: 20px;
+	width: 450px;
+	height: 180px;
+	font-family: 'Roboto', sans-serif;
+	background-image: url(../pig.jpg);
+	color: white;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+form {
+	display: inline;
+	margin-left: 80px;
+}
+#container {
+	width: 450px;
+	margin: auto;
+	margin-top: 10px;
+	border: 5px solid black;
+	border-radius: 25px;
+}
+#text_box{
+	height: 17px;
+	width: 200px;
+}
+#submit_button{
+	background-color: black;
+	color: white;
+}
