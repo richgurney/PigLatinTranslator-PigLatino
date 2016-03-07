@@ -39,28 +39,4 @@ post "/" do
 	@translate = pig_translation.join(" ")
 
 	erb :home
-
 end
-
-
-# Sudo for bonus
-# word = "and the thing"
-
-# pig_array = []
-
-# new word = word.(something to send to array with spaces)
-
-# new word.each do |word|
-
-# if word.start_with?("a", "e", "i", "o", "u")
-# 	        send this to array array "#{word}ay"
-# 	    else
-# 	        start_letter = word.slice(0)
-# 	        word.slice!(0)
-# 	        send this to pg array"#{word}#{start_letter}ay"
-# 	    end
-
-# @translate = pig_array into a string
-
-
-# end 
